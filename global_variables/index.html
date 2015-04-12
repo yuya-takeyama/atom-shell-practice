@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Global Variables</title>
+</head>
+<body>
+  <h1>Global Variables</h1>
+  message = <script>
+    var remote = require('remote');
+    document.write(JSON.stringify(remote.getGlobal('message')));
+  </script>
+</body>
+</html>
