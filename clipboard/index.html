@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Clipboard</title>
+</head>
+<body>
+  <h1>Clipboard</h1>
+  <script>
+    var clipboard = require('clipboard');
+    clipboard.writeText((new Date).toString());
+  </script>
+  Current time is copied into your clipboard!
+</body>
+</html>
