@@ -21,7 +21,7 @@ app.on('ready', function() {
 
   var displayWindow = true;
 
-  var ret = globalShortcut.register('Ctrl + Shift +x', function() {
+  var ret = globalShortcut.register('Ctrl + Shift + x', function() {
     if (displayWindow) {
       mainWindow.hide();
       displayWindow = false;
